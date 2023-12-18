@@ -28,3 +28,15 @@ git config --global user.email "[valid-email]"
 
 # Set automatic command line coloring for Git for easy reviewing
 git config --global color.ui auto
+
+
+
+
+
+## SETUP & INIT
+# Configuring user information, initializing, and cloning repositories
+# Initialize an existing directory as a Git repository
+git init
+
+# Retrieve an entire repository from a hosted location via URL
+git clone [url]
