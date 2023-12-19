@@ -64,3 +64,6 @@ git diff --staged
 
 # Commit your staged content as a new commit snapshot
 git commit -m "[descriptive message]"
+
+
+Hi rakshitha.
