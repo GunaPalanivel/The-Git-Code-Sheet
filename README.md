@@ -4,17 +4,17 @@ This cheat sheet provides a quick reference for the most important and commonly 
 
 ## Table of Contents
 
-1. [Stage & Snapshot]
-2. [Setup]
-3. [Setup & Init]
-4. [Branch & Merge]
-5. [Installation & GUIs]
-6. [Share & Update]
-7. [Tracking Path Changes]
-8. [Temporary Commits]
-9. [Rewrite History]
-10. [Inspect & Compare]
-11. [Ignoring Patterns]
+1. Stage & Snapshot
+2. Setup
+3. Setup & Init
+4. Branch & Merge
+5. Installation & GUIs
+6. Share & Update
+7. Tracking Path Changes
+8. Temporary Commits
+9. Rewrite History
+10. Inspect & Compare
+11. Ignoring Patterns
 
 ## Stage & Snapshot
 
