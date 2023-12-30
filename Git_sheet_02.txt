@@ -1,1 +1,30 @@
-// developer look into this later.
+# Git Cheat Sheet: GitHub Workflow
+
+## Connect Git to GitHub
+
+```bash
+# Set GitHub username
+git config --global user.name "YourGitHubUsername"
+
+# Set GitHub email
+git config --global user.email "your.email@example.com"
+
+
+
+
+## Initialize a New Project in VS Code
+
+# Initialize a new Git repository
+git init
+
+# Create a new file in VS Code for the main branch
+# Use either of the following commands:
+git add test03.txt    # Add a specific file
+# OR
+git add .             # Add all files
+
+# Commit changes to the main branch
+git commit -m "Test3 file added"
+
+# Push changes to the GitHub repository's main branch
+git push origin main
