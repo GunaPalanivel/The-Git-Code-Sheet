@@ -1,6 +1,6 @@
 # Git Cheat Sheet: GitHub Workflow
 
-## Connect Git to GitHub
+# Connect Git to GitHub
 
 ```bash
 # Set GitHub username
