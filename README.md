@@ -4,95 +4,45 @@ This cheat sheet provides a quick reference for the most important and commonly 
 
 ## Table of Contents
 
-1. Stage & Snapshot
-2. Setup
-3. Setup & Init
-4. Branch & Merge
-5. Installation & GUIs
-6. Share & Update
-7. Tracking Path Changes
-8. Temporary Commits
-9. Rewrite History
-10. Inspect & Compare
-11. Ignoring Patterns
+# Git_code_sheet_01
 
-## Stage & Snapshot
+1. [INSTALLATION & GUIS](Git_code_sheet_01/01-INSTALLATION-GUIS.md)
+2. [SETUP](Git_code_sheet_01/02-SETUP.md)
+3. [SETUP & INIT](Git_code_sheet_01/03-SETUP-INIT.md)
+4. [STAGE & SNAPSHOT](Git_code_sheet_01/04-STAGE-SNAPSHOT.md)
+5. [BRANCH & MERGE](Git_code_sheet_01/05-BRANCH-MERGE.md)
+6. [SHARE & UPDATE](Git_code_sheet_01/06-SHARE-UPDATE.md)
+7. [TRACKING PATH CHANGES](Git_code_sheet_01/07-TRACKING-PATH-CHANGES.md)
+8. [TEMPORARY COMMITS](Git_code_sheet_01/08-TEMPORARY-COMMITS.md)
+9. [REWRITE HISTORY](Git_code_sheet_01/09-REWRITE-HISTORY.md)
+10. [INSPECT & COMPARE](Git_code_sheet_01/10-INSPECT-COMPARE.md)
+11. [IGNORING PATTERNS](Git_code_sheet_01/11-IGNORING-PATTERNS.md)
 
-- `git status`: Show modified files in the working directory, staged for the next commit.
-- `git add [file]`: Add a file as it looks now to your next commit (stage).
-- `git reset [file]`: Unstage a file while retaining the changes in the working directory.
-- `git diff`: Diff of what is changed but not staged.
-- `git diff --staged`: Diff of what is staged but not yet committed.
-- `git commit -m "[descriptive message]"`: Commit your staged content as a new commit snapshot.
+# Git_code_sheet_02
 
-## Setup
+1. [Connect Git to GitHub](Git_code_sheet_02/01-Connect-Git-to-GitHub.md)
+2. [Initialize a New Project in VS Code](Git_code_sheet_02/02-Initialize-a-New-Project-in-VS-Code.md)
+3. [Create and Work with a Branch](Git_code_sheet_02/03-Create-and-Work-with-a-Branch.md)
+4. [Clone and Work with a GitHub Repository](Git_code_sheet_02/04-Clone-and-Work-with-a-GitHub-Repository.md)
+5. [Push an Existing Repository to GitHub](Git_code_sheet_02/05-Push-an-Existing-Repository-to-GitHub.md)
+6. [Download Code from GitHub to VS Code](Git_code_sheet_02/06-Download-Code-from-GitHub-to-VS-Code.md)
+7. [TRACKING PATH CHANGES](Git_code_sheet_02/07-TRACKING-PATH-CHANGES.md)
 
-- `git config --global user.name "[firstname lastname]"`: Set a name that is identifiable for credit when reviewing version history.
-- `git config --global user.email "[valid-email]"`: Set an email address that will be associated with each history marker.
-- `git config --global color.ui auto`: Set automatic command line coloring for Git for easy reviewing.
+## Contents
 
-## Setup & Init
+The repository includes:
 
-- `git init`: Initialize an existing directory as a Git repository.
-- `git clone [url]`: Retrieve an entire repository from a hosted location via URL.
+- `Git_code_sheet_01`: The main Git cheat sheet in markdown format.
+- `Git_code_sheet_02`: GitHub Workflow you can work with to know more.
 
-## Branch & Merge
+## How to Contribute
 
-- `git branch`: List your branches. A will appear next to the currently active branch.
-- `git branch [branch-name]`: Create a new branch at the current commit.
-- `git checkout [branch]`: Switch to another branch and check it out into your working directory.
-- `git merge [branch]`: Merge the specified branch’s history into the current one.
-- `git log`: Show all commits in the current branch’s history.
+If you find any issues, have improvements to suggest, or want to add more content, please feel free to contribute! Follow these steps:
 
-## Installation & GUIs
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
 
-GitHub provides platform-specific installers for Git, along with a graphical user interface.
+## License
 
-- GitHub for Windows: [https://windows.github.com](https://windows.github.com)
-- GitHub for Mac: [https://mac.github.com](https://mac.github.com)
-- For Linux and Solaris platforms, the latest release is available on the official Git website: [http://git-scm.com](http://git-scm.com)
-
-## Share & Update
-
-- `git remote add [alias] [url]`: Add a git URL as an alias.
-- `git fetch [alias]`: Fetch down all the branches from that Git remote.
-- `git merge [alias]/[branch]`: Merge a remote branch into your current branch to bring it up to date.
-- `git push [alias] [branch]`: Transmit local branch commits to the remote repository branch.
-- `git pull`: Fetch and merge any commits from the tracking remote branch.
-
-## Tracking Path Changes
-
-- `git rm [file]`: Delete the file from the project and stage the removal for commit.
-- `git mv [existing-path] [new-path]`: Change an existing file path and stage the move.
-- `git log --stat -M`: Show all commit logs with an indication of any paths that moved.
-
-## Temporary Commits
-
-- `git stash`: Save modified and staged changes.
-- `git stash list`: List stack-order of stashed file changes.
-- `git stash pop`: Write working from the top of the stash stack.
-- `git stash drop`: Discard the changes from the top of the stash stack.
-
-## Rewrite History
-
-- `git rebase [branch]`: Apply any commits of the current branch ahead of the specified one.
-- `git reset --hard [commit]`: Clear staging area, rewrite working tree from specified commit.
-
-## Inspect & Compare
-
-- `git log`: Show the commit history for the currently active branch.
-- `git log branchB..branchA`: Show the commits on branchA that are not on branchB.
-- `git log --follow [file]`: Show the commits that changed file, even across renames.
-- `git diff branchB...branchA`: Show the diff of what is in branchA that is not in branchB.
-- `git show [SHA]`: Show any object in Git in human-readable format.
-
-## Ignoring Patterns
-
-- `git config --global core.excludesfile [file]`: System-wide ignore pattern for all local repositories.
-- Save a file with desired patterns as .gitignore with either direct string matches or wildcard globs.
-  Example:
-  logs/
-  .notes
-  pattern/
-
-Feel free to add more sections or details as needed for your specific audience or use case.
+This Git Code Sheet is open-sourced under the [MIT License](LICENSE).
