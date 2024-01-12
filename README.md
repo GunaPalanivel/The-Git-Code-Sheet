@@ -26,7 +26,6 @@ This cheat sheet provides a quick reference for the most important and commonly 
 4. [Clone and Work with a GitHub Repository](Git_code_sheet_02/04-Clone-and-Work-with-a-GitHub-Repository.md)
 5. [Push an Existing Repository to GitHub](Git_code_sheet_02/05-Push-an-Existing-Repository-to-GitHub.md)
 6. [Download Code from GitHub to VS Code](Git_code_sheet_02/06-Download-Code-from-GitHub-to-VS-Code.md)
-7. [TRACKING PATH CHANGES](Git_code_sheet_02/07-TRACKING-PATH-CHANGES.md)
 
 ## Contents
 
